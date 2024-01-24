@@ -55,10 +55,8 @@
  }
 
  .index-top {
-     /*display: flex;
-     flex-direction: column;*/
      height: 1336px;
-     background-image: url("../img/top/bg-top.jpg")
+     background-image: url("../img/top/bg-top.jpg");
  }
 
  .button-type-one {
@@ -155,8 +153,7 @@
      font-size: 80px;
      font-weight: 800;
      text-align: center;
-     margin: 0 auto;
-     margin-top: 270px;
+     padding-left: 202px;
  }
 
  .page-two-centered {
@@ -221,7 +218,7 @@
     padding-top: 40px;
 }
 
-.header1 {
+.header-1 {
     color: whitesmoke;
     font-size: 46px;
     font-weight: 800;
@@ -229,7 +226,8 @@
     
 }
 
-.p1 {
+.middle-header-text {
+    display: block;
     color: whitesmoke;
     font-size: 27px;
     font-weight: 400;
@@ -244,18 +242,16 @@
     
 }
 
-header2 {
-    font-size: 21px;
-    font-weight: 800;
-    text-align: center;    
-}
+
 
 .box-1,
 .box-2,
 .box-3 {
-    display: flex;
     background-color: #EAEAEA ;
-    width: 370px;
+    width: 350px;
+    text-align: center;
+    font-size: 19px;
+    padding: 30px;
     margin-top: 120px;
     border-radius: 10px;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.25);
@@ -265,11 +261,9 @@ header2 {
 }
 
 .box-1 {
-    flex-direction: column;
     height: 291px;
-    justify-content: center;
-    text-align: center;
-    padding: 30px;
+
+
     
     
 }
@@ -283,6 +277,21 @@ header2 {
     height: 291px;
 }
 
-.paragraph-1 {
-   
+.header-box-1 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+hr {
+    background-color: #D4145A;
+    height: 2px;
+    width: 90px;
+    
+}
+
+.para-1 {
+    width: 300px;
+    font-size: 22px;
+    text-align: center;
+    
 }
